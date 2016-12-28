@@ -25,19 +25,8 @@ public class UicDemoAutoconfiguration extends DubboBasedAutoConfiguration {
     private UicProperties properties;
 
     @Bean
-    public ReferenceBean<UicTemplate> uicTemplate() {
-        return getConsumerBean(UicTemplate.class, properties.getVersion(), properties.getTimeout());
-    }
-
-    @Bean
     public ReferenceBean<AccountManager> accountManager() {
         return getConsumerBean(AccountManager.class, properties.getVersion(), properties.getTimeout());
-    }
-
-
-    @Bean
-    public ReferenceBean<ItemManager> itemManager() {
-        return getConsumerBean(ItemManager.class, properties.getVersion(), properties.getTimeout());
     }
 
 }
