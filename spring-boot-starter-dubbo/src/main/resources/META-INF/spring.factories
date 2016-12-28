@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.qishon.spring.boot.dubbo.DubboAutoConfiguration,\
+com.qishon.spring.boot.dubbo.DubboProviderAutoConfiguration,\
+com.qishon.spring.boot.dubbo.DubboConsumerAutoConfiguration

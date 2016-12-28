@@ -1,0 +1,2 @@
+dubboconsumerstatics=com.qishon.spring.boot.dubbo.listener.ConsumerInvokeStaticsFilter
+dubboproviderstatics=com.qishon.spring.boot.dubbo.listener.ProviderInvokeStaticsFilter

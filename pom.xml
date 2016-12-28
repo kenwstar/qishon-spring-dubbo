@@ -10,6 +10,7 @@
 
     <modules>
         <module>spring-boot-uic-common</module>
+        <module>spring-boot-starter-dubbo</module>
     </modules>
 
     <properties>

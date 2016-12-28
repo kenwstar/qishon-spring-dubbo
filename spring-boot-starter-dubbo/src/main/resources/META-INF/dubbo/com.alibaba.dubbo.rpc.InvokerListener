@@ -1,0 +1,1 @@
+dubbosubscribe=com.qishon.spring.boot.dubbo.listener.ConsumerSubscribeListener
