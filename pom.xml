@@ -11,6 +11,7 @@
     <modules>
         <module>spring-boot-uic-common</module>
         <module>spring-boot-starter-dubbo</module>
+        <module>spring-boot-starter-demo-uic</module>
     </modules>
 
     <properties>
